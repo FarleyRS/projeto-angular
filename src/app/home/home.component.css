@@ -1,0 +1,164 @@
+.intro{
+	height: 720px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url('https://images.unsplash.com/photo-1632723893457-47e3abc47526?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80');
+	display: grid;
+	
+}
+.intro-text{
+	padding: 10px;
+	text-align: left;
+	margin-left: 10%;
+	width: 300px;
+	display: flex;
+	line-height: 70px;
+	font-size: 60px;
+	align-items: center;
+	font-family: fantasy;
+	color: white;
+}
+.intro-text span{
+	color: #20970D;
+}
+.section{
+	display: grid;
+	height: auto;
+	padding-bottom: 100px;
+	width: 100%;
+	background-color: rgb(177, 197, 87);
+}
+.sobre{
+	text-align: left;
+	height: auto;
+	padding-left: 10%;
+	margin-top: 100px;
+	column-count: 2;
+	max-width: 65%;
+}
+.section h2{
+	padding: 10px;
+	font-size:40px;
+	margin-top: 0
+	
+}
+.historia{
+	width: 700px;
+	height: auto;
+}
+.historia p{
+	padding: 10px;
+	font-size: 22px;
+}
+
+.title{
+	width: 400px;
+	color: rgb(0, 0, 0);
+	text-align: start;
+}
+.text-1{
+	width: 400px;
+	text-align: left;
+	color: rgb(48, 46, 46);
+}
+.text-2{
+	width: 400px;
+	height: auto;
+	color: rgb(48, 46, 46);
+	text-align: left;
+}
+.title-sobre{
+	margin: 0;
+	padding-top: 50px;
+	width: 100%;
+}
+.title-sobre h2{
+	padding-left: 0px;
+	padding: 0;
+}
+.div-service{
+	width: 100%;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-image: url(https://images.pexels.com/photos/2749165/pexels-photo-2749165.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+.text-service{
+	text-align: center;
+	width: 100%;
+	height: 200px;
+	color: white;
+	font-family:'Times New Roman', Times, serif;
+	}
+.text-service h2{
+	margin: 0;
+	padding-top: 30px;
+	font-size: 40px;
+}
+.text-service p{
+	margin-top: 10px;
+	padding: 0;
+	font-size: 20px;
+}
+.acordion-service{
+	width: 700px;
+}
+
+@media only screen and (max-width:1080px){
+	.intro{
+		height: auto;
+		background-size: 180%;
+	}
+	.intro-text{
+		width: 200px;
+		display: flex;
+		line-height: 40px;
+		font-size: 30px;
+	}
+	.sobre{
+		column-count: 1;
+		
+		padding-left: 10%;
+		margin-top: 50px;
+	}
+	.section h2{
+		padding: 10px;
+		font-size:30px;
+		margin-top: 0
+		
+	}
+	.historia{
+		width: auto;
+		height: auto;
+	}
+	.historia p{
+		padding: 10px;
+		font-size: 22px;
+	}
+	
+	.title{
+		width: 300px;
+	}
+	.text-1{
+		width: 300px;
+	}
+	.text-2{
+		width: 300px;
+	}
+	.title-sobre{
+		margin: 0;
+		padding-top: 50px;
+		width: 100%;
+	}
+	.title-sobre h2{
+		padding-left: 48%;
+		padding: 0;
+	}
+
+	.div-service{
+		max-height: 500px;
+		background-size: 210%;
+	}
+}
